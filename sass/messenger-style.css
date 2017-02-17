@@ -571,7 +571,7 @@ aside {
     margin-right: 20px;
     margin-top: 24px; }
     #modal-edit-stream .stream-logo.empty, #modal-stream-info .stream-logo.empty, #modal-stream-clear .stream-logo.empty {
-      background: url("/images/clear-user-logo.png") no-repeat center;
+      background: url("../images/clear-user-logo.png") no-repeat center;
       background-color: white;
       background-size: 25px 22px;
       position: relative;
@@ -602,19 +602,19 @@ aside {
       font-weight: 500;
       margin-top: -2px; }
   #modal-edit-stream .stream-count, #modal-stream-info .stream-count, #modal-stream-clear .stream-count {
-    background: url("/images/stream-count-logo.png") no-repeat;
+    background: url("../images/stream-count-logo.png") no-repeat;
     width: 16px;
     height: 11px;
     display: block;
     margin-right: 7px; }
   #modal-edit-stream .stream-add, #modal-stream-info .stream-add, #modal-stream-clear .stream-add {
-    background: url("/images/stream-add.png") no-repeat;
+    background: url("../images/stream-add.png") no-repeat;
     width: 14px;
     height: 10px;
     display: block;
     cursor: pointer; }
   #modal-edit-stream .delete-ico, #modal-stream-info .delete-ico, #modal-stream-clear .delete-ico {
-    background: url("/images/delete-ico.png") no-repeat;
+    background: url("../images/delete-ico.png") no-repeat;
     width: 10px;
     height: 11px;
     display: block;
@@ -628,7 +628,7 @@ aside {
   #modal-stream-info .tooltip-leave:hover .tooltip-content, #modal-stream-clear .tooltip-leave:hover .tooltip-content {
     opacity: 1; }
   #modal-stream-info .tooltip-leave i, #modal-stream-clear .tooltip-leave i {
-    background: url("/images/leave-ico.png") no-repeat;
+    background: url("../images/leave-ico.png") no-repeat;
     width: 11px;
     height: 11px;
     display: block; }
