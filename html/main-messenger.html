@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messenger</title>
+    <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="../sass/messenger-style.css">
+</head>
+<body>
+<header class="messenger-head">
+    <a href="#" data-activates="dropdown-main-nav" class="menu-ico dropdown-button"><i class="material-icons">menu</i></a>
+    <nav id="dropdown-main-nav">
+        <ul>
+            <li><a href="#" class="first"><i class="material-icons new-stream-ico"></i>New Stream</a></li>
+            <li><a href="#modal-contact-clear" class="last"><i class="material-icons  members-ico"></i>Members</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="menu-ico hide cross"><i class="material-icons">close</i></a>
+    <h2>Messenger</h2>
+    <section class="chat-info">
+        <a href="#">
+        <div class="chat-title left">
+            <h1>Soo very very very very veryvery very very  very very very very very long stream name</h1>
+            <span>7 members</span>
+        </div>
+        </a>
+        <div class="right icons-head-bar">
+            <a href="#" data-activates="dropdown-media"><i class="left material-icons">attach_file</i></a>
+            <nav id="dropdown-media">
+                <ul>
+                    <li><a href="#" class="first">Photos</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#" class="last">Files</a></li>
+                </ul>
+            </nav>
+            <a href=""><i class="right material-icons">settings</i></a>
+            <nav id="dropdown-settings-adm">
+                <ul>
+                    <li><a href="#" class="first">Edit Stream</a></li>
+                    <li><a href="#modal-contact-clear" class="last">Add Members</a></li>
+                </ul>
+            </nav>
+            <nav id="dropdown-settings-user">
+                <ul>
+                    <li><a href="#" class="first">Stream Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</header>
+<aside class="side-nav fixed" id="nav-mobile">
+    <form action="" class="search-form">
+        <div class="input-field">
+            <i class="material-icons">search</i>
+            <input type="text" placeholder="Search">
+        </div>
+    </form>
+    <section class="collections-aside">
+        <section class="col-chats">
+            <div class="col-chats__title">
+                <span class="left">Streams</span>
+                <div class="right counter-message">123<i class=" right material-icons">email</i></div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                </div>
+                <div class="user-description left">
+                    <h5 class="active">Shaun Gardner asdsadasdsadsadsadadasda asdsad asdasd very very vey</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-badges right">
+                    10
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-day right">
+                    Today
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-day right">
+                    Yesterday
+                </div>
+            </div>
+        </section>
+        <section class="col-chats">
+            <div class="col-chats__title">
+                <span class="left">Members</span>
+                <div class="right counter-message">345<i class=" right material-icons">email</i></div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                    <i class="user-status offline"></i>
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner asdsadasdsadsadsadadasda asdsad asdasd very very vey</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-badges right">
+                    5
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                    <i class="user-status offline"></i>
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner asdsadasdsadsadsadadasda asdsad asdasd very very vey</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-badges right">
+                    5
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                    <i class="user-status offline"></i>
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner asdsadasdsadsadsadadasda asdsad asdasd very very vey</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-badges right">
+                    5
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                    <i class="user-status depart"></i>
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-day right">
+                    Today
+                </div>
+            </div>
+            <div class="user-col left">
+                <div class="user-logo left">
+                    <img src="/images/user-logo.jpg" alt="">
+                    <i class="user-status online"></i>
+                </div>
+                <div class="user-description left">
+                    <h5>Shaun Gardner</h5>
+                    <p>
+                        Selver New Sweet Good Luck Big Cool Many
+                    </p>
+                </div>
+                <div class="user-day right">
+                    Yesterday
+                </div>
+            </div>
+        </section>
+
+    </section>
+</aside>
+<main class="left messenger-chat">
+    <div class="message-list">
+    <section class="companion-message-col">
+        <div class="user-info-chat left">
+            <div class="user-logo-chat">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="material-icons">star_rate</i>
+            </div>
+            <div class="user-time">
+                12:40
+            </div>
+        </div>
+        <div class="user-description-chat left">
+            <h5>Pink Panter</h5>
+            <div class="message-content">
+                <p>
+                    It goes a little something like this.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="companion-message-col">
+        <div class="user-info-chat left">
+            <div class="user-logo-chat">
+                <img src="/images/user-logo.jpg" alt="">
+            </div>
+            <div class="user-time">
+                12:40
+            </div>
+        </div>
+        <div class="user-description-chat left">
+            <h5>Pink Panter2</h5>
+            <div class="message-content">
+                <p >
+                    It goes a little something like this.    It goes a little something like this.    It goes a little something like this.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="self-message-col">
+        <div class="user-info-chat right">
+            <div class="user-logo-chat">
+                <img src="/images/user-logo.jpg" alt="">
+            </div>
+            <div class="user-time">
+                12:40
+            </div>
+        </div>
+        <div class="user-description-chat right">
+            <div class="message-content self-message">
+                <div class="message-img">
+                    <img src="/images/img-message.jpg" alt="">
+                    <div class="message-img-hover">
+                        <a href="#"><i class="material-icons">remove_red_eye</i></a>
+                        <a href="#" class=" marg"><i class="material-icons">file_download</i></a>
+                    </div>
+                </div>
+                <p class="with-img-box">
+                    It goes a little something like this.    It goes a little something like this.    It goes a little something like this.    It goes a little something like this.    It goes a little something like this.    It goes a little something like this.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    </div>
+    <section class="field-text">
+        <form action="">
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <ul class="left">
+                <li><i class="material-icons">format_bold</i></li>
+                <li><i class="material-icons">format_italic</i></li>
+                <li><i class="material-icons">format_underlined</i></li>
+                <li><i class="material-icons">strikethrough_s</i></li>
+            </ul>
+            <div class="right right-nav-marg">
+                <div class="uploader-col left">
+                    Error!
+                </div>
+                <div class="left">
+                    <ul>
+                        <li><a href=""><i class="material-icons left attach-icon">attach_file</i></a></li>
+                        <li><a href=""><i class="material-icons left">photo_camera</i></a></li>
+                    </ul>
+                </div>
+                <input type="submit" value=" ">
+            </div>
+        </form>
+    </section>
+</main>
+
+<div id="modal-contact-clear" class="modal">
+    <section class="modal-header left">
+        <h6 class="left">Members</h6>
+        <div class="edit-col right">
+            <i class="left material-icons">mode_edit</i>
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <form action="" class="search-form left">
+            <div class="input-field">
+                <i class="material-icons">search</i>
+                <input type="text" placeholder="Search">
+            </div>
+        </form>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat">new member</a>
+    </section>
+</div>
+
+<div id="modal-contact-edit" class="modal">
+    <section class="modal-header left">
+        <h6 class="left">Members</h6>
+        <div class="edit-col right">
+            <i class="left material-icons edit-color">mode_edit</i>
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <form action="" class="search-form left">
+            <div class="input-field">
+                <i class="material-icons">search</i>
+                <input type="text" placeholder="Search">
+            </div>
+        </form>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col edit left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">delete (1)</a>
+    </section>
+</div>
+
+<div id="modal-new-stream" class="modal">
+    <section class="modal-header left">
+        <h6 class="left">Members</h6>
+        <div class="edit-col right">
+            <i class="left material-icons">mode_edit</i>
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <form action="" class="search-form left">
+            <div class="input-field">
+                <i class="material-icons">search</i>
+                <input type="text" placeholder="Search">
+            </div>
+        </form>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col active left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col active left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col active left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">create</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-create-stream">
+    <section class="modal-header">
+        <h6 class="left">Create Stream</h6>
+        <div class="edit-col right">
+            <i class="right material-icons modal-close">close</i>
+        </div>
+    </section>
+    <section class="modal-content">
+        <form action="">
+            <div class="input-field">
+                <input type="text" id="stream-name">
+                <label for="stream-name">Stream Name</label>
+            </div>
+        </form>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">create</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-delete-member">
+    <section class="modal-header">
+        <h6 class="left">Are You Sure?</h6>
+    </section>
+    <section class="modal-content">
+        <p>Are you sure you want to remove <a href="">Mace Windu</a> from the your member list?
+        </p>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">delete</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-leave-stream">
+    <section class="modal-header">
+        <h6 class="left">Leave Stream</h6>
+    </section>
+    <section class="modal-content">
+        <p>Are you sure, you want to delete all message history and leave the stream?
+        </p>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">delete</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-edit-stream">
+    <section class="modal-header left">
+        <h6 class="left">Edit Streams</h6>
+        <div class="edit-col right">
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <div class="stream-info left">
+            <div class="stream-logo left">
+                <img src="../images/stream-logo.jpg" alt="">
+            </div>
+            <div class="stream-title left">
+                <div class="input-field">
+                    <input type="text" placeholder="Stream Name" value="So very very very very very very very very very long stream">
+                </div>
+            </div>
+        </div>
+        <div class="left count-members">
+            <div class="left">
+                <i class="material-icons left stream-count"></i>
+                <span class="left">7 Members</span>
+            </div>
+            <div class="right">
+                <i class="material-icons stream-add"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>You</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">save</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-stream-info">
+    <section class="modal-header left">
+        <h6 class="left">Edit Streams</h6>
+        <div class="edit-col right">
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <div class="stream-info left">
+            <div class="stream-logo left">
+                <img src="../images/stream-logo.jpg" alt="">
+            </div>
+            <div class="stream-title left">
+                <div class="input-field">
+                    <input type="text" placeholder="Stream Name" value="So very very very very very very very very very long stream">
+                </div>
+            </div>
+        </div>
+        <div class="left count-members">
+            <div class="left">
+                <i class="material-icons left stream-count"></i>
+                <span class="left">7 Members</span>
+            </div>
+            <div class="right">
+                <i class="material-icons stream-add"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>You</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right tooltip-leave">
+                <i class="material-icons"></i>
+                <div class="tooltip-content">
+                    <a href="">Leave Stream</a>
+                </div>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">save</a>
+    </section>
+</div>
+
+<div class="modal" id="modal-stream-clear">
+    <section class="modal-header left">
+        <h6 class="left">Edit Streams</h6>
+        <div class="edit-col right">
+            <i class="right material-icons modal-close">close</i>
+        </div>
+        <div class="stream-info left">
+            <div class="stream-logo empty left">
+                <div class="file-field"><input type="file"></div>
+            </div>
+            <div class="stream-title left">
+                <div class="input-field">
+                    <input type="text" placeholder="Stream Name" value="So very very very very very very very very very long stream">
+                </div>
+            </div>
+        </div>
+        <div class="left count-members">
+            <div class="left">
+                <i class="material-icons left stream-count"></i>
+                <span class="left">7 Members</span>
+            </div>
+            <div class="right">
+                <i class="material-icons stream-add"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-content left">
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status online"></i>
+            </div>
+            <div class="user-description left">
+                <h5>You</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right tooltip-leave">
+                <i class="material-icons"></i>
+                <div class="tooltip-content">
+                    <a href="">Leave Stream</a>
+                </div>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status depart"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+        <div class="user-col left">
+            <div class="user-logo left">
+                <img src="/images/user-logo.jpg" alt="">
+                <i class="user-status offline"></i>
+            </div>
+            <div class="user-description left">
+                <h5>Shaun Gardner</h5>
+                <p>
+                    Selver New Sweet Good Luck Big Cool Many
+                </p>
+            </div>
+            <div class="right">
+                <i class="material-icons delete-ico"></i>
+            </div>
+        </div>
+    </section>
+    <section class="modal-footer left">
+        <a href="#" class="btn-flat cancel-btn">cancel</a>
+        <a href="#" class="btn-flat add-btn">save</a>
+    </section>
+</div>
+
+</body>
+</html>
